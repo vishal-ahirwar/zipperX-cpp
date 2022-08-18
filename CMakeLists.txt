@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(zipperX)
+set(CMAKE_CXX_COMPILER clang++)
+add_executable(${PROJECT_NAME} ./src/main.cc)
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)
